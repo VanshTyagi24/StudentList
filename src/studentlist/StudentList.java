@@ -16,7 +16,9 @@ public class StudentList {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Student[] students = new Student[2];
+        
+        // changed array size to 3
+        Student[] students = new Student[3];
         
         Scanner input = new Scanner(System.in);
         
